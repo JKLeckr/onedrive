@@ -55,6 +55,11 @@ Create a directory on OneDrive \- no sync will be performed.
 \fB\-\-create\-share\-link\fP ARG
 Create a shareable link for an existing file on OneDrive
 .TP
+\fB\-\-data\-timeout\fP
+Timeout for activity on an HTTPS connection.
+.br
+Configuration file key: \fBdata_timeout\fP (default: \fB600\fP)
+.TP
 \fB\-\-debug\-https\fP
 Debug OneDrive HTTPS communication.
 .br

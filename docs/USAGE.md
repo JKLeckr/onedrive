@@ -1360,6 +1360,8 @@ Options:
       Create a directory on OneDrive - no sync will be performed.
   --create-share-link ARG
       Create a shareable link for an existing file on OneDrive
+  --data-timeout ARG
+      Set the timeout for activity on an HTTPS connection.
   --debug-https
       Debug OneDrive HTTPS communication.
   --destination-directory ARG
