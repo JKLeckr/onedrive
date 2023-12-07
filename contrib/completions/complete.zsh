@@ -10,6 +10,7 @@ all_opts=(
   '--check-for-nosync[Check for the presence of .nosync in each directory. If found, skip directory from sync.]'
   '--confdir[Set the directory used to store the configuration files]:config directory:_files -/'
   '--create-directory[Create a directory on OneDrive - no sync will be performed.]:directory name:'
+  '--data-timeout[Set the timeout for activity on an HTTPS connection.]:seconds:'
   '--debug-https[Debug OneDrive HTTPS communication.]'
   '--destination-directory[Destination directory for renamed or move on OneDrive - no sync will be performed.]:directory name:'
   '--disable-notifications[Do not use desktop notifications in monitor mode.]'

@@ -6,6 +6,7 @@ complete -c onedrive -f
 complete -c onedrive -l check-for-nomount -d 'Check for the presence of .nosync in the syncdir root. If found, do not perform sync.'
 complete -c onedrive -l check-for-nosync -d 'Check for the presence of .nosync in each directory. If found, skip directory from sync.'
 complete -c onedrive -l create-directory -d 'Create a directory on OneDrive - no sync will be performed.'
+complete -c onedrive -l data-timeout -d 'Set the timeout for activity on an HTTPS connection.'
 complete -c onedrive -l debug-https -d 'Debug OneDrive HTTPS communication.'
 complete -c onedrive -l disable-notifications -d 'Do not use desktop notifications in monitor mode.'
 complete -c onedrive -l disable-upload-validation -d 'Disable upload validation when uploading to OneDrive.'
